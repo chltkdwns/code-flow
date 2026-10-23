@@ -10,6 +10,18 @@
 기본은 파일을 수정하지 않는 설명이며, 코드에서 직접 확인한 연결 관계만 말한다.
 
 ## 설치
+Claude Code 플러그인으로 설치 (한 줄):
+```text
+/plugin install code-flow --marketplace chltkdwns/code-flow
+```
+
+또는 마켓플레이스를 먼저 등록한 뒤 설치:
+```text
+/plugin marketplace add chltkdwns/code-flow
+/plugin install code-flow@chltkdwns-skills
+```
+
+스킬만 설치:
 ```bash
 npx skills add chltkdwns/code-flow
 ```
